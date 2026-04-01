@@ -108,7 +108,7 @@ const projects: Project[] = [{
     desc: "Personal web portfolio built to showcase my experience, projects, and technical skills as a Front-End Developer. I developed from scratch, with the design inspired by Brittany Chiang portfolio.",
     image: "/images/my-portofolio.png",
     href: "https://anasarifin.pro/",
-    stacks: ["ts", "react", "vite", "tailwind", "motion"],
+    stacks: ["ts", "vue", "vite", "tailwind", "motion"],
     links: [
         //     {
         //     label: "Repo React",

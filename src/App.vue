@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { useInView } from 'motion-v'
 import { ref, watch, onMounted } from 'vue';
+import { Analytics } from '@vercel/analytics/vue';
+
 import HeroSection from './components/HeroSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import Wrapper from './components/Wrapper.vue';
@@ -39,6 +41,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <Analytics />
   <Wrapper :isContactInView="contactInView">
     <BackgroundSection />
     <div className="flex flex-col lg:flex-row justify-between relative z-2 gap-y-24">

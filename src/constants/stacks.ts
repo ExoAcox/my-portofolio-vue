@@ -22,6 +22,10 @@ const stacks = {
         label: "Astro",
         href: "https://astro.build/"
     },
+    vue: {
+        label: "Vue",
+        href: "https://vuejs.org/"
+    },
     vite: {
         label: "Vite",
         href: "https://vitejs.dev/"

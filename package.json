@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
+    "@vercel/analytics": "^2.0.1",
     "motion-v": "^2.2.0",
     "oh-vue-icons": "1.0.0-rc3",
     "tailwindcss": "^4.2.1",
