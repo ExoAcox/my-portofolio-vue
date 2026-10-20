@@ -18,14 +18,13 @@ useMotionValueEvent(scrollY, "change", (value) => {
 
 const handleContact = () => {
     const element = document.getElementById("contact")
-    console.log(element)
     element!.scrollIntoView({ behavior: "smooth" })
 }
 </script>
 
 
 <template>
-    <div className="relative scroll-mt-18 max-w-dvw">
+    <div class="relative scroll-mt-18 max-w-dvw">
         <motion.button :initial="{ translateX: '125%' }" :animate="isContactVisible && !isContactInView
             ? { x: 0 }
             : {}" @click="handleContact"

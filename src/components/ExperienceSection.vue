@@ -19,5 +19,11 @@ defineExpose({
             <ExperienceCard v-for="experience in experiences" :key="experience.title" :desc="experience.desc"
                 :title="experience.title" :date="experience.date" :links="experience.links" />
         </div>
+        <a href="/docs/anasarifin-resume.pdf" target="_blank"
+            class="mt-4 sm:mt-6 lg:mt-8 lg:mx-6 flex text-base sm:text-md items-center gap-2 w-fit text-white font-semibold hover:text-tertiary group/link">View
+            My Full Resume
+            <v-icon name="hi-arrow-narrow-right"
+                class="size-5 shrink-0 scale-80 transition group-hover/link:translate-x-1" />
+        </a>
     </div>
 </template>

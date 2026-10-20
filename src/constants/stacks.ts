@@ -26,6 +26,10 @@ const stacks = {
         label: "Vue",
         href: "https://vuejs.org/"
     },
+    angular: {
+        label: "Angular",
+        href: "https://angular.io/"
+    },
     vite: {
         label: "Vite",
         href: "https://vitejs.dev/"
@@ -96,7 +100,15 @@ const stacks = {
     },
     firebase: {
         label: "Firebase",
-        href: "hhttps://firebase.google.com/"
+        href: "https://firebase.google.com/"
+    },
+    three: {
+        label: "Three.js",
+        href: "https://threejs.org/"
+    },
+    fiber: {
+        label: "React Three Fiber",
+        href: "https://docs.pmnd.rs/react-three-fiber/"
     }
 }
 

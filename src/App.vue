@@ -44,9 +44,9 @@ onMounted(() => {
   <Analytics />
   <Wrapper :isContactInView="contactInView">
     <BackgroundSection />
-    <div className="flex flex-col lg:flex-row justify-between relative z-2 gap-y-24">
+    <div class="flex flex-col lg:flex-row justify-between relative z-2 gap-y-24">
       <HeroSection :active="active" />
-      <div className="lg:w-2xl lg:max-w-[60%] flex flex-col gap-24 lg:gap-36">
+      <div class="lg:w-2xl lg:max-w-[60%] flex flex-col gap-24 lg:gap-36">
         <AboutSection ref="aboutRef" />
         <ExperienceSection ref="experienceRef" />
         <ProjectSection ref="projectRef" :contactInView="contactInView" />

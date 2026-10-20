@@ -15,7 +15,6 @@ const generateDuration = () => {
     return Math.floor(Math.random() * 10000) + 5000
 }
 
-console.log(props.maxSize)
 
 const generateSize = () => {
     return Math.floor(Math.random() * props.maxSize) + (props.maxSize - (props.maxSize / 8))
