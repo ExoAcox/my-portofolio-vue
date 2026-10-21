@@ -21,6 +21,10 @@ const projects: Project[] = [
         image: "/images/bimasakti.png",
         href: "https://bimasakti.space/",
         stacks: ["ts", "react", "vite", "tailwind", "zustand", "router", "three", "fiber"],
+        links: [{
+            label: "Repo",
+            href: "https://github.com/ExoAcox/bimasakti/"
+        }]
     }, {
         title: "MySIIS",
         desc: "Multi-menu web app designed to display and manage diverse operational data. The core feature, enables users to visualize the distribution of IndiHome ODPs across Indonesia. This feature significantly supports field operations, empowering salesforces and technicians with accurate for more effective decision-making.",
