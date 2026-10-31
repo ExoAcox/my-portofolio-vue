@@ -109,6 +109,14 @@ const stacks = {
     fiber: {
         label: "React Three Fiber",
         href: "https://docs.pmnd.rs/react-three-fiber/"
+    },
+    rust: {
+        label: "Rust",
+        href: "https://www.rust-lang.org/"
+    },
+    gtk: {
+        label: "GTK4",
+        href: "https://gtk.org/"
     }
 }
 

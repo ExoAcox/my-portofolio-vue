@@ -25,7 +25,19 @@ const projects: Project[] = [
             label: "Repo",
             href: "https://github.com/ExoAcox/bimasakti/"
         }]
-    }, {
+    },
+    {
+        title: "Hyprland Dock",
+        desc: "A lightweight, blazing-fast dock for Hyprland built with Rust and GTK4 layer shell. Born from my daily Linux workflow and passion for desktop customization. Featuring hyprland workspace window tracking, smart auto-hide behavior, and fully customizable CSS theming.",
+        image: "/images/hyprland-dock.webp",
+        href: "https://github.com/ExoAcox/hyprland-dock",
+        stacks: ["rust", "gtk"],
+        // links: [{
+        //     label: "Repo",
+        //     href: "https://github.com/ExoAcox/hyprland-dock"
+        // }]
+    },
+    {
         title: "MySIIS",
         desc: "Multi-menu web app designed to display and manage diverse operational data. The core feature, enables users to visualize the distribution of IndiHome ODPs across Indonesia. This feature significantly supports field operations, empowering salesforces and technicians with accurate for more effective decision-making.",
         image: "/images/mysiis.png",
